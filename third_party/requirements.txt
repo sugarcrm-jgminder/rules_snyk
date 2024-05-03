@@ -36,10 +36,12 @@ markdown-it-py==3.0.0 \
     --hash=sha256:355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1 \
     --hash=sha256:e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb
     # via rich
-mashumaro==3.1 \
-    --hash=sha256:0ad98b9269d17e28a6e6053071d6b63333b774682de89029a52c609d1c28b5ed \
-    --hash=sha256:e61c7d0b4156e982eec067b73345ddaf424266cb4034089ab32cc7b51fde9472
-    # via pysnyk
+mashumaro==3.13 \
+    --hash=sha256:59457aebb90e85b8b195e5ccc2d46b608f2709bedb679f9d19a952f9bb1fb6ec \
+    --hash=sha256:636c31afe39d991efe4cad269fef0c8ba408d87581118784d2a47924c2073faa
+    # via
+    #   -r third_party/requirements.in
+    #   pysnyk
 mdurl==0.1.2 \
     --hash=sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8 \
     --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
@@ -84,10 +86,11 @@ typer==0.12.3 \
     --hash=sha256:070d7ca53f785acbccba8e7d28b08dcd88f79f1fbda035ade0aecec71ca5c914 \
     --hash=sha256:49e73131481d804288ef62598d97a1ceef3058905aa536a1134f90891ba35482
     # via -r third_party/requirements.in
-typing-extensions==4.4.0 \
-    --hash=sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa \
-    --hash=sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e
+typing-extensions==4.11.0 \
+    --hash=sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0 \
+    --hash=sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a
     # via
+    #   -r third_party/requirements.in
     #   mashumaro
     #   typer
 urllib3==1.26.12 \
