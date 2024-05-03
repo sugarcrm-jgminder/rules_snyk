@@ -10,6 +10,10 @@ workspace(
 load("//:repositories.bzl", "rules_snyk_repos")
 rules_snyk_repos()
 
+load("@rules_python//python:repositories.bzl", "py_repositories")
+
+py_repositories()
+
 # Create a central repo that knows about the dependencies needed from
 # requirements.txt
 load("@rules_python//python:pip.bzl", "pip_parse")
