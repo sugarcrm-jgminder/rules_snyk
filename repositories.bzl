@@ -4,9 +4,9 @@ def rules_snyk_repos():
     # python support for depgraph processing
     http_archive(
         name = "rules_python",
-        sha256 = "8c8fe44ef0a9afc256d1e75ad5f448bb59b81aba149b8958f02f7b3a98f5d9b4",
-        strip_prefix = "rules_python-0.13.0",
-        url = "https://github.com/bazelbuild/rules_python/archive/refs/tags/0.13.0.tar.gz",
+        sha256 = "c68bdc4fbec25de5b5493b8819cfc877c4ea299c0dcb15c244c5a00208cde311",
+        strip_prefix = "rules_python-0.31.0",
+        url = "https://github.com/bazelbuild/rules_python/releases/download/0.31.0/rules_python-0.31.0.tar.gz",
     )
     #http_archive(
     #    name = "rules_python",
